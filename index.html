@@ -1,0 +1,163 @@
+<html lang="en" class=" js cssgradients csstransforms csstransitions svg inlinesvg svgclippaths">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+
+    <title>Weather</title>
+
+    <!-- Loading third party fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+    <link href="css/all.min.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Loading main css file -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<body cz-shortcut-listen="true">
+
+    <div class="site-content">
+        <div class="site-header">
+            <div class="container">
+                <a class="branding" href="/">
+                    <img src="images/logo.png" alt="" class="logo">
+                    <div class="logo-type">
+                        <h1 class="site-title">Weather</h1>
+                        <small class="site-description">tagline goes here</small>
+                    </div>
+                </a>
+
+                <!-- Default snippet for navigation -->
+                <div class="main-navigation">
+                    <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+                    <ul class="menu">
+                        <li class="menu-item current-menu-item"><a href="/">Home</a></li>
+                        <li class="menu-item"><a href="#">News</a></li>
+                        <li class="menu-item"><a href="#">Live cameras</a></li>
+                        <li class="menu-item"><a href="#">Photos</a></li>
+                        <li class="menu-item"><a href="contact.html">Contact</a></li>
+                    </ul> <!-- .menu -->
+                </div> <!-- .main-navigation -->
+
+                <div class="mobile-navigation">
+                    <ul class="menu">
+                        <li class="menu-item current-menu-item"><a href="/">Home</a></li>
+                        <li class="menu-item"><a href="#">News</a></li>
+                        <li class="menu-item"><a href="#">Live cameras</a></li>
+                        <li class="menu-item"><a href="#">Photos</a></li>
+                        <li class="menu-item"><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div> <!-- .site-header -->
+
+        <div class="hero" data-bg-image="images/banner.png"
+            style="background-image: url(&quot;images/banner.png&quot;);">
+            <div class="container">
+                <form class="find-location">
+                    <input type="text" placeholder="Find your location..." id="search">
+                    <input type="button" value="Find" id="submit">
+                </form>
+
+            </div>
+        </div>
+        <div class="forecast-table">
+            <div class="container">
+                <div class="forecast-container" id="forecast">
+                    <div class="today forecast">
+                        <div class="forecast-header" id="today">
+                            <div class="day">Saturday</div>
+                            <div class=" date">30December</div>
+                        </div> <!-- .forecast-header -->
+                        <div class="forecast-content" id="current">
+                            <div class="location">Cairo</div>
+                            <div class="degree">
+                                <div class="num">16<sup>o</sup>C</div>
+
+                                <div class="forecast-icon">
+                                    <img src="https://cdn.weatherapi.com/weather/64x64/night/143.png" alt="" width="90">
+                                </div>
+
+                            </div>
+                            <div class="custom">Mist</div>
+                            <span>
+
+                                <i class="fa-regular fa-umbrella">20%</i>
+
+
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-wind">18km</i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-compass">East</i>
+
+                            </span>
+                        </div>
+                    </div>
+                    <div class="forecast">
+                        <div class="forecast-header">
+                            <div class="day">Sunday</div>
+                        </div>
+                        <div class="forecast-content">
+                            <div class="forecast-icon">
+                                <img src="https://cdn.weatherapi.com/weather/64x64/day/176.png" alt="" width="48">
+                            </div>
+                            <div class="degree">21.4<sup>o</sup>C</div>
+                            <small>14.2<sup>o</sup></small>
+                            <div class="custom">Patchy rain possible</div>
+                        </div>
+                    </div>
+                    <div class="forecast">
+                        <div class="forecast-header">
+                            <div class="day">Monday</div>
+                        </div>
+                        <div class="forecast-content">
+                            <div class="forecast-icon">
+                                <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+                            </div>
+                            <div class="degree">21.1<sup>o</sup>C</div>
+                            <small>13.6<sup>o</sup></small>
+                            <div class="custom">Sunny</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Enter your email to subscribe...">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
